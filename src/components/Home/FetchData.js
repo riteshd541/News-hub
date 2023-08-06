@@ -8,7 +8,7 @@ const FetchData = () => {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "https://newsapi.org/v2/top-headlines?country=in&apiKey=abe84282a0f544b7a9af729f4b2b0c02"
+        `https://newsapi.org/v2/top-headlines?country=in&apiKey=${process.env.REACT_APP_API_KEY}`
       );
       setData(response.data.articles);
     } catch (error) {
