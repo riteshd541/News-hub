@@ -26,7 +26,7 @@ git clone https://github.com/riteshd541/News-hub.git
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-cd news-feed
+cd News-hub
 npm install
 ```
 
