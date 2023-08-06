@@ -1,4 +1,9 @@
 # News Hub
+Link :
+```sh
+https://news-hub-by-ritesh.netlify.app/
+```
+"This deployed link of the website works perfectly; however, due to limitations with the News API in online deployment, new articles are not rendering after login on the home page, as the NewsAPI requires paid plans to access their links post-deployment."
 
 ## Project Description:
 
