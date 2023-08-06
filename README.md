@@ -1,5 +1,8 @@
 # News Hub
-
+Deployed Link : 
+```sh
+https://news-hub-by-ritesh.netlify.app/
+```
 ## Project Description:
 
 This project is a React web application that provides a user-friendly interface to view and interact with news articles. It allows users to sign up, log in, and view a list of news articles fetched from an API. The app includes a responsive navigation bar, a welcome message for users, and the option to view news articles in grid or list view. Each news item is linked to a detailed page displaying the full article.
@@ -20,7 +23,7 @@ To run the project locally, follow these steps:
 Clone the repository to your local machine:
 
 ```sh
-git clone <repository_url>
+git clone https://github.com/riteshd541/News-hub.git
 ```
 
 Install the dependencies and devDependencies and start the server.
