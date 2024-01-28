@@ -8,9 +8,13 @@ const FetchData = () => {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        `https://newsapi.org/v2/top-headlines?country=in&apiKey=${process.env.REACT_APP_API_KEY}`
+        `https://api.currentsapi.services/v1/latest-news?apiKey=${process.env.REACT_APP_API_KEY}`
       );
-      setData(response.data.articles);
+      if (response.data && response.data.news) {
+        setData(response.data.news);
+      } else {
+        console.error("Invalid data format received:", response.data);
+      }
     } catch (error) {
       console.error("Error fetching data:", error);
     }
@@ -49,7 +53,7 @@ const FetchData = () => {
 
                   <div className="d-flex justify-content-center align-items-center">
                     <img
-                      src={item.urlToImage}
+                      src={item.image}
                       alt={item.title}
                       className="img-fluid"
                       style={{
@@ -59,7 +63,7 @@ const FetchData = () => {
                       }}
                     />
                   </div>
-                  <p className="my-1 flex-grow-1">{item.content}</p>
+                  <p className="my-1 flex-grow-1">{item.description}</p>
                   <a href={item.url} target="_blank" rel="noopener noreferrer">
                     View more
                   </a>
