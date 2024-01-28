@@ -1,10 +1,18 @@
 # News Hub
+<<<<<<< HEAD
 
 Deployed Link :
 
 ```sh
 https://news-hub-by-ritesh.netlify.app/
 ```
+=======
+Link :
+```sh
+https://news-hub-by-ritesh.netlify.app/
+```
+"This deployed link of the website works perfectly; however, due to limitations with the News API in online deployment, new articles are not rendering after login on the home page, as the NewsAPI requires paid plans to access their links post-deployment."
+>>>>>>> e4b25d9ddedbcaf7b2d4d849a2285bb3168823ad
 
 ## Project Description:
 
@@ -32,7 +40,7 @@ git clone https://github.com/riteshd541/News-hub.git
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-cd news-feed
+cd News-hub
 npm install
 ```
 
@@ -122,3 +130,15 @@ To make the app more user-centric, I plan to add the ability for users to mark a
 ### Offline Support:
 
 Offline support is crucial to ensure a seamless user experience even when users are not connected to the internet. I intend to implement caching mechanisms that will allow users to read previously fetched news articles even when they are offline. This way, users can continue to access their saved articles and catch up on the latest news, regardless of their internet connectivity.
+
+
+### Screenshots
+
+![Sign_Up](https://github.com/riteshd541/News-hub/assets/123566634/00bfef30-b4b9-49af-8f09-f5979cecb491)
+![Login](https://github.com/riteshd541/News-hub/assets/123566634/2efdf6ff-6be6-4051-a44b-788c4d9f4e43)
+![Homepage](https://github.com/riteshd541/News-hub/assets/123566634/797a5395-998a-47b2-a250-be1533ad4e00)
+![Gridview](https://github.com/riteshd541/News-hub/assets/123566634/fa858860-231f-4a8f-99b0-e48231e15089)
+
+
+
+
