@@ -3,7 +3,7 @@ import axios from "axios";
 
 const FetchData = () => {
   const [data, setData] = useState([]);
-  const [gridView, setGridView] = useState(false); // State variable to track view mode
+  const [gridView, setGridView] = useState(false);
 
   const fetchData = async () => {
     try {
